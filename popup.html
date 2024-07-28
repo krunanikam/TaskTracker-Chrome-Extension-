@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TaskTracker</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      background: url('background.jpeg') no-repeat center center fixed; 
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+    .container { 
+      padding: 20px; 
+      background-color: rgba(12, 4, 4, 0.4); /* Asphalt with transparency */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+      width: 300px;
+      border-radius: 16px; /* Added curved corners */
+    }
+    h1 { 
+      color: #f2eaea; /* Black cow */
+      margin-top: 0; 
+      margin-bottom: 20px; /* Add some space below the heading */
+      text-align: center; /* Center text horizontally */
+    }
+    .task-item { 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer; 
+      margin-bottom: 10px; 
+      padding: 10px;
+      background-color: #3B3C36; /* Black olive */
+      border-radius: 8px;
+      color: white;
+      font-size: 16px; /* Increased text size */
+    }
+    .task-item:hover { 
+      background-color: #232B2B; /* Charleston green */
+    }
+    label { 
+      color: #bab8b8; /* Davy's gray */
+      margin-bottom: 10px; 
+    }
+    input[type="text"] { 
+      width: calc(100%  ); 
+      padding: 5px; /* Reduced padding for height */
+      margin-bottom: 10px; 
+      margin-top: 10px; 
+      border: 1px solid #555D50; /* Ebony */
+      border-radius: 8px;
+      box-sizing: border-box;
+      background-color: #c2bfbf; /* Granite */
+      color: rgb(0, 0, 0);
+      font-size: 16px; /* Increased text size for input */
+      height: 27px; /* Reduced height */
+    }
+    button { 
+      width: calc(100% ); 
+      padding: 5px; /* Reduced padding for height */
+      background-color: #c2b011; 
+      color: white; 
+      border: none; 
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px; /* Increased text size for button */
+      height: 27px; /* Reduced height */
+    }
+    button:hover { 
+      background-color: #c2b011; 
+    }
+    .hidden {
+      display: none;
+    }
+    .remove-task-button {
+      background-color: transparent;
+      border: none;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>TaskTracker</h1>
+    <div id="taskList"></div>
+    <button id="addTaskButton">Add Task</button>
+    <div id="taskInputSection" class="hidden"> 
+      <input type="text" id="task" placeholder="Enter your task...">
+      <button id="saveTask">Save Task</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
