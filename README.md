@@ -1,12 +1,14 @@
 # TaskTracker-Chrome-Extension-
 
 TaskTracker is a productivity Chrome extension designed to help users manage their tasks efficiently. It features a user-friendly interface for adding, viewing, and removing tasks, with persistent storage using Chrome's storage.sync to maintain task lists across devices. The extension leverages JavaScript for task operations, HTML and CSS for a clean and responsive interface, and the Chrome Extensions API for seamless browser integration.
+
+ <img width="947" alt="a" src="https://github.com/user-attachments/assets/a67aec4a-2cb8-4786-84ec-a43f9914a28b">
  
-![image](https://github.com/user-attachments/assets/ece5450e-7429-4bc8-9afd-da51b4ca3e8d)
 
-![image](https://github.com/user-attachments/assets/d43afcf1-74ca-431e-a523-0ac24dde9e63)
+<img width="260" alt="a1" src="https://github.com/user-attachments/assets/28b028d4-6db2-47f2-99b1-82e51d6ac50c">
 
-![image](https://github.com/user-attachments/assets/79db76f8-bbfc-48c0-8f79-9f0627eb3d00)
 
-![image](https://github.com/user-attachments/assets/bab188e8-3a23-46a3-8efc-afc84d4662e1)
+<img width="257" alt="a2" src="https://github.com/user-attachments/assets/a0d498d6-4bc6-4bb5-9817-325bd7504197">
 
+
+<img width="257" alt="a3" src="https://github.com/user-attachments/assets/05462a1e-6231-4c45-b1e6-6b650ab5bbde">
